@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vuyani Mthembu | Portfolio</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-slate-900">
+
+<!-- NAVIGATION BAR -->
+<nav class="bg-slate-900 sticky top-0 z-50 border-b border-slate-800">
+  <div class="container mx-auto px-6 py-4 flex justify-center">
+    <ul class="flex gap-8">
+      <li><a href="#home" class="text-slate-300 hover:text-sky-400 transition">Home</a></li>
+      <li><a href="#about" class="text-slate-300 hover:text-sky-400 transition">About</a></li>
+      <li><a href="#skills" class="text-slate-300 hover:text-sky-400 transition">Skills</a></li>
+      <li><a href="#projects" class="text-slate-300 hover:text-sky-400 transition">Projects</a></li>
+      <li><a href="#experience" class="text-slate-300 hover:text-sky-400 transition">Experience</a></li>
+      <li><a href="#contact" class="text-slate-300 hover:text-sky-400 transition">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="home" class="min-h-screen flex items-center">
+  <div class="container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+
+    <!-- LEFT CONTENT -->
+    <div class="z-10">
+      <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">
+        Hi, I’m <span class="text-sky-400">Vuyani Mthembu</span>
+      </h1>
+
+      <h2 class="mt-4 text-xl md:text-2xl text-slate-300">
+        Aspiring Software Developer
+      </h2>
+
+      <p class="mt-6 max-w-xl text-slate-400">
+        I build modern, user-friendly web applications with a strong focus on clean
+        design, performance, and real-world problem solving.
+      </p>
+
+      <div class="mt-8 flex gap-4">
+       <a href="resume.pdf" download
+   class="inline-flex items-center gap-2 px-6 py-3
+          bg-sky-500 text-slate-900 font-semibold rounded-lg
+          hover:bg-sky-400 transition">
+
+  <!-- Download Icon -->
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+       viewBox="0 0 24 24" class="w-5 h-5">
+    <path d="M12 3a1 1 0 0 1 1 1v8.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4.01 4a1 1 0 0 1-1.38 0l-4.01-4a1 1 0 1 1 1.4-1.42L11 12.59V4a1 1 0 0 1 1-1z"/>
+    <path d="M5 19a1 1 0 0 1-1-1v-2a1 1 0 1 1 2 0v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H5z"/>
+  </svg>
+
+  My Resume
+</a>
+
+
+        <a href="#contact"
+          class="px-6 py-3 border border-sky-500 text-sky-400 rounded-lg hover:bg-sky-500 hover:text-slate-900 transition">
+          Contact Me
+        </a>
+
+        <a href="https://github.com/Dev-Vuyani" target="_blank"
+     class="w-12 h-12 flex items-center justify-center
+            border border-sky-500 text-sky-400 rounded-lg
+            hover:bg-sky-500 hover:text-slate-900 transition">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+         fill="currentColor" class="w-6 h-6">
+      <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.57.1.78-.25.78-.55v-2c-3.2.7-3.88-1.38-3.88-1.38-.53-1.35-1.3-1.71-1.3-1.71-1.06-.73.08-.72.08-.72 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.72 1.27 3.38.97.1-.76.4-1.27.73-1.56-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.3 1.19-3.11-.12-.3-.52-1.52.11-3.17 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 5.8 0c2.21-1.5 3.18-1.19 3.18-1.19.63 1.65.23 2.87.11 3.17.74.81 1.19 1.85 1.19 3.11 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.15v3.19c0 .3.21.65.79.54A11.52 11.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+    </svg>
+  </a>
+
+  <a href="https://www.linkedin.com/in/vuyani-mthembu-38106a318/" target="_blank"
+     class="w-12 h-12 flex items-center justify-center
+            border border-sky-500 text-sky-400 rounded-lg
+            hover:bg-sky-500 hover:text-slate-900 transition">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+         fill="currentColor" class="w-6 h-6">
+      <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8.22h4.52V24H.22V8.22zM8.22 8.22h4.33v2.15h.06c.6-1.13 2.06-2.33 4.24-2.33 4.54 0 5.38 2.99 5.38 6.88V24h-4.52v-7.6c0-1.82-.03-4.16-2.54-4.16-2.55 0-2.94 1.98-2.94 4.03V24H8.22V8.22z"/>
+    </svg>
+  </a>
+      </div>
+    </div>
+
+    
+
+    <!-- RIGHT IMAGE -->
+    <div class="relative hidden md:block">
+      <img 
+        src="Profile Picture.png"
+        alt="Vuyani Mthembu"
+        class="w-full max-w-md ml-auto opacity-80 grayscale rounded-xl"
+      />
+
+      <div class="absolute inset-0 bg-gradient-to-l from-slate-900 via-slate-900/60 to-transparent"></div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="about" class="min-h-screen bg-slate-900 flex items-center">
+  <div class="container mx-auto px-6 max-w-4xl">
+
+    <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+      About <span class="text-sky-400">Me</span>
+    </h2>
+
+    <p class="text-slate-400 text-lg leading-relaxed">
+      ICT Diploma (Application Development) candidate who has completed all coursework,
+      with a strong foundation in software development, web development, and problem-solving.
+      Skilled in Java, Python, JavaScript, Django, and React (basic) through academic projects
+      and academic-driven practical experience.
+    </p>
+
+    <p class="mt-6 text-slate-400 text-lg leading-relaxed">
+      I am highly motivated, adaptable, and eager to apply my technical skills in real-world
+      projects while contributing effectively within a collaborative development team and
+      continuing to grow as a software developer.
+    </p>
+
+    <div class="mt-10">
+      <a href="#projects"
+        class="inline-block px-6 py-3 border border-sky-500 text-sky-400 rounded-lg
+               hover:bg-sky-500 hover:text-slate-900 transition">
+        View My Work
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section id="skills" class="min-h-screen bg-slate-900 py-20">
+  <div class="container mx-auto px-6">
+
+    <!-- Section Title -->
+    <h2 class="text-4xl font-bold text-center text-white mb-16">
+      My <span class="text-sky-400">Skill Set</span>
+    </h2>
+
+    <!-- Skills Grid -->
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Programming Languages -->
+      <div class="bg-slate-800 rounded-2xl p-6 hover:-translate-y-2 transition">
+        <h3 class="text-xl font-semibold text-sky-400 mb-4">
+          💻 Programming Languages
+        </h3>
+        <ul class="space-y-2 text-slate-300">
+          <li>☕ Java</li>
+          <li>🟨 JavaScript</li>
+          <li>🐍 Python</li>
+          
+        </ul>
+      </div>
+
+      <!-- Databases -->
+      <div class="bg-slate-800 rounded-2xl p-6 hover:-translate-y-2 transition">
+        <h3 class="text-xl font-semibold text-sky-400 mb-4">
+          🗄️ Databases
+        </h3>
+        <ul class="space-y-2 text-slate-300">
+          <li>🟡 MySQL</li>
+          <li>🍃 SQLite</li>
+        </ul>
+      </div>
+
+      <!-- Frameworks -->
+      <div class="bg-slate-800 rounded-2xl p-6 hover:-translate-y-2 transition">
+        <h3 class="text-xl font-semibold text-sky-400 mb-4">
+          🧩 Frameworks
+        </h3>
+        <ul class="space-y-2 text-slate-300">
+          <li>⚛️ React (Basic)</li>
+          <li>🟢 Node.js</li>
+          <li>🌐 ASP.NET (Basic)</li>
+          <li>🌱 Django</li>
+        </ul>
+      </div>
+
+      <!-- Tools & Technologies -->
+      <div class="bg-slate-800 rounded-2xl p-6 hover:-translate-y-2 transition">
+        <h3 class="text-xl font-semibold text-sky-400 mb-4">
+          🛠️ Tools & Technologies
+        </h3>
+        <ul class="space-y-2 text-slate-300">
+          <li>🔧 Git & GitHub</li>
+          <li>🖊️ Visual Studio Code</li>
+          <li>🌐 HTML</li>
+          <li>🎨 CSS</li>
+          
+        </ul>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="bg-slate-800 rounded-2xl p-6 hover:-translate-y-2 transition">
+        <h3 class="text-xl font-semibold text-sky-400 mb-4">
+          ❤️ Soft Skills
+        </h3>
+        <ul class="space-y-2 text-slate-300">
+          <li>💬 Communication</li>
+          <li>⏱️ Time Management</li>
+          <li>🤝 Interpersonal Skills</li>
+          <li>🧠 Critical Thinking</li>
+          <li>🤝 Teamwork and collaboration</li>
+          <li>🔄 Adaptability</li>
+          <li>💼 Work Ethic</li>
+
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="min-h-screen bg-slate-900 py-20">
+  <div class="container mx-auto px-6">
+
+    <!-- Section Title -->
+    <h2 class="text-4xl font-bold text-center text-white mb-16">
+      My <span class="text-sky-400">Projects</span>
+    </h2>
+
+    <!-- Projects Grid -->
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Project Card -->
+      <div class="bg-slate-800 rounded-2xl p-6 hover:-translate-y-2 transition">
+        <h3 class="text-xl font-semibold text-white mb-2">
+          Freelancer Connect
+        </h3>
+
+        <p class="text-slate-400 text-sm mb-4">
+          Web-based freelance and project management platform that aims to bridge the gap between IT graduates seeking employment opportunities and small to medium-sized businesses (SMBs) looking for affordable IT solutions.
+        </p>
+
+        <!-- Tech Stack -->
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="px-3 py-1 text-xs rounded-full bg-slate-700 text-sky-400">Django</span>
+          <span class="px-3 py-1 text-xs rounded-full bg-slate-700 text-sky-400">JavaScript</span>
+          <span class="px-3 py-1 text-xs rounded-full bg-slate-700 text-sky-400">HTML</span>
+          <span class="px-3 py-1 text-xs rounded-full bg-slate-700 text-sky-400">CSS</span>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex gap-3">
+          <!-- GitHub -->
+          <a href="https://github.com/Dev-Vuyani/Final-Year-Full-Stack-Project.git" target="_blank"
+             class="inline-flex items-center gap-2 px-3 py-2 text-sm
+                    border border-sky-500 text-sky-400 rounded-lg
+                    hover:bg-sky-500 hover:text-slate-900 transition">
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                 viewBox="0 0 24 24" class="w-4 h-4">
+              <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.57.1.78-.25.78-.55v-2c-3.2.7-3.88-1.38-3.88-1.38-.53-1.35-1.3-1.71-1.3-1.71-1.06-.73.08-.72.08-.72 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.72 1.27 3.38.97.1-.76.4-1.27.73-1.56-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.3 1.19-3.11-.12-.3-.52-1.52.11-3.17 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 5.8 0c2.21-1.5 3.18-1.19 3.18-1.19.63 1.65.23 2.87.11 3.17.74.81 1.19 1.85 1.19 3.11 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.15v3.19c0 .3.21.65.79.54A11.52 11.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+            </svg>
+
+            GitHub
+          </a>
+
+          <!-- Live Demo -->
+          <a href="https://your-live-demo-link.com" target="_blank"
+             class="inline-flex items-center gap-2 px-3 py-2 text-sm
+                    border border-sky-500 text-sky-400 rounded-lg
+                    hover:bg-sky-500 hover:text-slate-900 transition">
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                 viewBox="0 0 24 24" class="w-4 h-4">
+              <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
+              <path d="M5 5h5V3H3v7h2V5z"/>
+              <path d="M5 19h14V9h2v12H3V7h2v12z"/>
+            </svg>
+
+            Live
+          </a>
+        </div>
+      </div>
+
+      
+      <!-- Project Card -->
+      <div class="bg-slate-800 rounded-2xl p-6 hover:-translate-y-2 transition">
+        <h3 class="text-xl font-semibold text-white mb-2">
+          Personal Portfolio Website
+        </h3>
+
+        <p class="text-slate-400 text-sm mb-4">
+          A simple, responsive personal portfolio website built to showcase my skills, projects, and experience as an aspiring software developer.
+        </p>
+
+        <!-- Tech Stack -->
+        <div class="flex flex-wrap gap-2 mb-6">
+          
+          <span class="px-3 py-1 text-xs rounded-full bg-slate-700 text-sky-400">HTML</span>
+          <span class="px-3 py-1 text-xs rounded-full bg-slate-700 text-sky-400">CSS Tailwind</span>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex gap-3">
+          <!-- GitHub -->
+          <a href="https://github.com/yourusername/study-buddy" target="_blank"
+             class="inline-flex items-center gap-2 px-3 py-2 text-sm
+                    border border-sky-500 text-sky-400 rounded-lg
+                    hover:bg-sky-500 hover:text-slate-900 transition">
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                 viewBox="0 0 24 24" class="w-4 h-4">
+              <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.57.1.78-.25.78-.55v-2c-3.2.7-3.88-1.38-3.88-1.38-.53-1.35-1.3-1.71-1.3-1.71-1.06-.73.08-.72.08-.72 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.72 1.27 3.38.97.1-.76.4-1.27.73-1.56-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.3 1.19-3.11-.12-.3-.52-1.52.11-3.17 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 5.8 0c2.21-1.5 3.18-1.19 3.18-1.19.63 1.65.23 2.87.11 3.17.74.81 1.19 1.85 1.19 3.11 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.15v3.19c0 .3.21.65.79.54A11.52 11.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+            </svg>
+
+            GitHub
+          </a>
+
+          <!-- Live Demo -->
+          <a href="https://your-live-demo-link.com" target="_blank"
+             class="inline-flex items-center gap-2 px-3 py-2 text-sm
+                    border border-sky-500 text-sky-400 rounded-lg
+                    hover:bg-sky-500 hover:text-slate-900 transition">
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                 viewBox="0 0 24 24" class="w-4 h-4">
+              <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
+              <path d="M5 5h5V3H3v7h2V5z"/>
+              <path d="M5 19h14V9h2v12H3V7h2v12z"/>
+            </svg>
+
+            Live
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="min-h-screen bg-slate-900 py-20">
+  <div class="container mx-auto px-6 max-w-4xl">
+
+    <!-- Section Title -->
+    <h2 class="text-4xl font-bold text-center text-white mb-16">
+      My <span class="text-sky-400">Experience</span>
+    </h2>
+
+    <!-- Timeline -->
+    <div class="relative border-l-2 border-sky-500 pl-10 space-y-16">
+
+      <!-- Timeline Item -->
+      <div class="relative">
+        <!-- Dot -->
+        <span class="absolute -left-[11px] top-2 w-5 h-5 bg-slate-900 border-4 border-sky-500 rounded-full"></span>
+
+        <!-- Content -->
+        <div class="bg-slate-800 p-6 rounded-2xl hover:-translate-y-1 transition">
+          <span class="inline-block mb-3 px-4 py-1 text-sm font-semibold text-slate-900 bg-sky-400 rounded-full">
+            Feb 2024 – Nov 2024
+          </span>
+
+          <h3 class="text-xl font-semibold text-white">
+            Student Assistant | ICT Mentor (FASSET Programme)
+          </h3>
+
+          <p class="mt-3 text-slate-400 leading-relaxed">
+            Mentored first-year ICT students by providing academic support in programming
+            using NetBeans IDE, Information Systems, and ICT Fundamentals. Assisted with
+            Cisco Packet Tracer activities and supported students in adapting to university
+            academic expectations.
+          </p>
+        </div>
+      </div>
+
+      <!-- Timeline Item -->
+      <div class="relative">
+        <!-- Dot -->
+        <span class="absolute -left-[11px] top-2 w-5 h-5 bg-slate-900 border-4 border-sky-500 rounded-full"></span>
+
+        <!-- Content -->
+        <div class="bg-slate-800 p-6 rounded-2xl hover:-translate-y-1 transition">
+          <span class="inline-block mb-3 px-4 py-1 text-sm font-semibold text-slate-900 bg-sky-400 rounded-full">
+            Jul 2025 – Nov 2025
+          </span>
+
+          <h3 class="text-xl font-semibold text-white">
+            Student Assistant | ICT Mentor (FASSET Programme)
+          </h3>
+
+          <p class="mt-3 text-slate-400 leading-relaxed">
+            Selected under the FASSET Programme at Sol Plaatje University in recognition of
+            academic performance. Mentored second and third-year ICT students, assisting
+            with coursework and programming modules in Java while promoting
+            collaborative learning and problem-solving.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="min-h-screen bg-slate-900 flex items-center justify-center py-20">
+  <div class="max-w-3xl mx-auto px-6 text-center">
+
+    <!-- Section Title -->
+    <h2 class="text-4xl font-bold text-white mb-6">
+      Get In <span class="text-sky-400">Touch</span>
+    </h2>
+
+    <!-- Main Message -->
+    <p class="text-slate-300 text-lg mb-8">
+      I'm actively looking for <span class="font-semibold text-sky-400">internship opportunities</span> and <span class="font-semibold text-sky-400">entry-level positions</span> where I can apply my technical skills and contribute to real-world projects. I'm also open to <span class="font-semibold text-sky-400">collaborating</span> on innovative solutions that solve meaningful problems.
+    </p>
+
+    <!-- Contact Information -->
+    <div class="bg-slate-800 rounded-2xl p-8 mb-3">
+      <h3 class="text-2xl font-semibold text-white mb-8">Let's Connect</h3>
+      
+      <!-- Phone Number -->
+      <div class="mb-8">
+        <p class="text-slate-400 mb-2">Phone</p>
+        <a href="tel:+27123456789" class="text-sky-400 text-xl font-semibold hover:text-sky-300 transition">
+          +27 61 435 4598
+        </a>
+      </div>
+
+      <!-- Email Form -->
+      <div>
+        <p class="text-slate-400 mb-4">Send me an Email</p>
+        <form action="https://formspree.io/f/mlgbozbe" method="POST" class="flex flex-col gap-4">
+          <input type="text" name="name" placeholder="Your Name" 
+                 class="px-4 py-3 rounded-lg bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500 transition"
+                 required />
+          
+          <input type="email" name="email" placeholder="Your Email" 
+                 class="px-4 py-3 rounded-lg bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500 transition"
+                 required />
+          
+          <textarea name="message" placeholder="Your Message" rows="5"
+                    class="px-4 py-3 rounded-lg bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500 transition resize-none"
+                    required></textarea>
+          
+          <button type="submit" 
+                  class="px-6 py-3 bg-sky-500 text-slate-900 font-semibold rounded-lg hover:bg-sky-400 transition">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Social Links -->
+    <div class="flex justify-center gap-6">
+      <a href="https://github.com/Dev-Vuyani" target="_blank"
+         class="w-14 h-14 flex items-center justify-center
+                border border-sky-500 text-sky-400 rounded-lg
+                hover:bg-sky-500 hover:text-slate-900 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+             fill="currentColor" class="w-7 h-7">
+          <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.57.1.78-.25.78-.55v-2c-3.2.7-3.88-1.38-3.88-1.38-.53-1.35-1.3-1.71-1.3-1.71-1.06-.73.08-.72.08-.72 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.72 1.27 3.38.97.1-.76.4-1.27.73-1.56-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.3 1.19-3.11-.12-.3-.52-1.52.11-3.17 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 5.8 0c2.21-1.5 3.18-1.19 3.18-1.19.63 1.65.23 2.87.11 3.17.74.81 1.19 1.85 1.19 3.11 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.15v3.19c0 .3.21.65.79.54A11.52 11.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+        </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/vuyani-mthembu-38106a318/" target="_blank"
+         class="w-14 h-14 flex items-center justify-center
+                border border-sky-500 text-sky-400 rounded-lg
+                hover:bg-sky-500 hover:text-slate-900 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+             fill="currentColor" class="w-7 h-7">
+          <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8.22h4.52V24H.22V8.22zM8.22 8.22h4.33v2.15h.06c.6-1.13 2.06-2.33 4.24-2.33 4.54 0 5.38 2.99 5.38 6.88V24h-4.52v-7.6c0-1.82-.03-4.16-2.54-4.16-2.55 0-2.94 1.98-2.94 4.03V24H8.22V8.22z"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+</body>
+</html>
