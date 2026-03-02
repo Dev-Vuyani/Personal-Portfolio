@@ -8,7 +8,7 @@ This project is still in progress and will be updated regularly as I continue bu
 ---
 
 ## 🌐 Live Preview
-_(Coming soon)_
+https://demo-portfolio-vuyani.netlify.app/
 
 ---
 
